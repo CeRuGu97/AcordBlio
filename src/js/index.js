@@ -29,7 +29,7 @@ const mostrarTodoELArrary = () => {
                                 <h2>${acorde.nombre}</h2>
                             </div>
                             <div class="card-cont-img">
-                                <img src="${acorde.img}" alt="Acorde de do">
+                                <img src="${acorde.img}" alt="Acorde de ${acorde.nombre}">
                             </div>
                         </div>
                     </li>
@@ -55,7 +55,7 @@ const filtrar = () => {
                                 <h2>${acorde.nombre}</h2>
                             </div>
                             <div class="card-cont-img">
-                                <img src="${acorde.img}" alt="Acorde de do">
+                                <img src="${acorde.img}" alt="Acorde de ${acorde.nombre}">
                             </div>
                         </div>
                     </li>
@@ -68,7 +68,7 @@ const paint = () => {
     //texto del imput
     const texto = chord.value.toLowerCase();
     if (texto.length == 0) {//solo muestra el h1 si no busca nada
-        paintWriting.innerHTML = `<h1>Busque la nota</h1>`;
+        paintWriting.innerHTML = `<h1>Busque el acorde</h1>`;
     } else {
         paintWriting.innerHTML = '';//ponen en blanco donde se tiene que pintar lo que busca
         acordes.find((item) => {

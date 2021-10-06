@@ -1,0 +1,129 @@
+:root {
+    /* Colores */
+    --bitcoin-orange: #f7931A;
+    --primary-coffe: #854A13;
+    --primary-red : #e9565e;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #fAF8F7;
+    --just-white: #fff;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header{
+    /* background: linear-gradient(250deg, #201E1C 16.69%, #F7931A 100%); */
+    background-color: var(--warm-black);
+    color: white;
+}
+header nav a .logo {
+    height: 7rem;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    /* width: 300px; */
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color:  white;
+}
+header nav ul li a:hover {
+    text-decoration: underline var(--bitcoin-orange);
+}
+main{
+    background: linear-gradient(250deg, #201E1C 16.69%, #e9565e 100%);
+    padding-top: 10px;
+    min-height: 100vh;
+}
+main .fondo {
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 5px;
+    min-height: 50vh;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/* aqui empieza la pagina de escalas */
+main .fondo .main-info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main .fondo .main-info h1 {
+    font-size: 2.4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+main .fondo .main-info h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+main .fondo .main-info p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: var(--warm-black);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main .fondo .main-info p span {
+    padding-left: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--warm-black);
+}
+main .main-tonos {
+    text-align: center;
+}
+main .fondo .main-tonos .main-tonos-family {
+    width: 85%;
+    height: 50px;
+    padding-top: 5px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.438);
+    /* border: 1px solid var(--black); */
+    -webkit-box-shadow: 10px 10px 15px -9px rgba(133,74,19,1);
+    -moz-box-shadow: 10px 10px 15px -9px rgba(133,74,19,1);
+    box-shadow: 10px 10px 15px -9px rgba(133,74,19,1);
+}
+main .fondo .main-tonos .main-tonos-family:hover {
+    height: 80px;
+}
+main .fondo .main-tonos .main-tonos-family .tonos-header-title h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+main .fondo .main-tonos .main-tonos-family ul {
+    list-style: none;
+    display: none;
+    padding: 0px;
+}
+main .fondo .main-tonos .main-tonos-family:hover ul, ul:hover {
+    display: flex;
+    justify-content: space-around;
+}
+main .fondo .main-tonos .main-tonos-family ul li {
+    font-size: 1.5rem;
+    display: inline-block;
+}

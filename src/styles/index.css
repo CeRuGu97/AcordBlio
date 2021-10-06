@@ -60,6 +60,7 @@ main .fondo {
     border-radius: 5px;
     min-height: 50vh;
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 main .main-chord h1 {
     font-size: 2.4rem;
@@ -100,6 +101,11 @@ main .cards-container-main ul{
     list-style: none;
     align-items: center;
 }
+main .cards-container-main .resultadoBuscado {
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--warm-black);
+    margin-bottom: 15px;
+}
 main .cards-container-main ul li {
     display: inline-block;
 }
@@ -127,53 +133,23 @@ main .cards-container-main ul li .card-cont .card-cont-img img {
     width: 150px;
     height: 168px;
 }
-/* aqui empieza la pagina de escalas */
-main .fondo .main-info {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-main .fondo .main-info h1 {
-    font-size: 2.4rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 900;
-}
-main .fondo .main-info h2 {
-    font-size: 1.5rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-main .fondo .main-info p {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.6rem;
-    color: var(--warm-black);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-main .fondo .main-info p span {
-    padding-left: 5px;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--warm-black);
-}
-main .main-tonos {
+/* Stilos de Circulos */
+main .fondo .tittle-cicul {
     text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
-main .main-tonos .main-tonos-family {
-    display: inline-block;
-    border: 1px solid var(--primary-red)
+main .fondo .cards-container-main .card-header-circulos {
+    margin-bottom: 50px;
 }
-main .main-tonos .main-tonos-family h3 {
-    font-size: 1.5rem;
-    margin-top: 10px;
+main .fondo .cards-container-main .card-header-circulos h1 {
+    font-size: 2rem;
+    width: 100%;
+    /* text-align: center;
+    margin-left: auto;
+    margin-right: auto; */
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--black);
     margin-bottom: 10px;
-    font-weight: 700;
-}
-main .main-tonos .main-tonos-family ul {
-    list-style: none;
-}
-main .main-tonos .main-tonos-family ul li {
-    display: inline-block;
 }
