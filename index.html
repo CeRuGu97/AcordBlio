@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/tablet.css" media="(min-width: 700px)">
+    <title>Chorts</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./src/escalas.html">Escalas</a></li>
+                <li>
+                    <a href="index.html">
+                        <img class="logo" src="./src/assets/img/iconPage2.png" alt="icono de la pagina">
+                    </a>
+                </li>
+                <li><a href="./src/circulos.html">Circulos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="fondo">
+            <section class="search-container">
+                <div class="main-chord" id="paint"></div>
+                <input class="input" type="text" id="chord">
+
+            </section>
+            <section class="cards-container-main">
+                <ul id="resultadoBuscado">
+                    <!-- aqui se pinta la lista buscada -->
+                </ul>
+            </section>
+            <section class="cards-container-main">
+                <ul id="resultado">
+                    <!-- aqui se pinta la lista -->
+                </ul>
+            </section>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/acordes.json"></script>
+</body>
+
+</html>

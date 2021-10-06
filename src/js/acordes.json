@@ -1,0 +1,278 @@
+[
+    {
+        "nombre": "Do",
+        "img": "./src/assets/img/chordDo1.png"
+    },
+    {
+        "nombre": "Do",
+        "img": "./src/assets/img/chordDo2.png"
+    },
+    {
+        "nombre": "Do",
+        "img": "./src/assets/img/chordDo3.png"
+    },
+    {
+        "nombre": "Do7",
+        "img": "./src/assets/img/chordDoSiete1.png"
+    },
+    {
+        "nombre": "Do7",
+        "img": "./src/assets/img/chordDoSiete2.png"
+    },
+    {
+        "nombre": "DoM",
+        "img": "./src/assets/img/chordDoMenor1.png"
+    },
+    {
+        "nombre": "DoM",
+        "img": "./src/assets/img/chordDoMenor2.png"
+    },
+    {
+        "nombre": "DoM7",
+        "img": "./src/assets/img/chordDoMenorSiete1.png"
+    },
+    {
+        "nombre": "Do#",
+        "img": "./src/assets/img/chordDoSostenido1.png"
+    },
+    {
+        "nombre": "Do#",
+        "img": "./src/assets/img/chordDoSostenido2.png"
+    },
+    {
+        "nombre": "Do#7",
+        "img": "./src/assets/img/chordDoSostenidoSiete1.png"
+    },
+    {
+        "nombre": "Do#7",
+        "img": "./src/assets/img/chordDoSostenidoSiete2.png"
+    },
+    {
+        "nombre": "Do#M",
+        "img": "./src/assets/img/chordDoSostenidoMenor1.png"
+    },
+    {
+        "nombre": "Do#M",
+        "img": "./src/assets/img/chordDoSostenidoMenor2.png"
+    },
+    {
+        "nombre": "Do#M7",
+        "img": "./src/assets/img/chordDoSostenidoMenorSiete1.png"
+    },
+    {
+        "nombre": "Re",
+        "img": "./src/assets/img/chordRe1.png"
+    },
+    {
+        "nombre": "Re",
+        "img": "./src/assets/img/chordRe2.png"
+    },
+    {
+        "nombre": "Re7",
+        "img": "./src/assets/img/chordReSiete1.png"
+    },
+    {
+        "nombre": "Re7",
+        "img": "./src/assets/img/chordReSiete2.png"
+    },
+    {
+        "nombre": "Re7",
+        "img": "./src/assets/img/chordReSiete3.png"
+    },
+    {
+        "nombre": "ReM",
+        "img": "./src/assets/img/chordReMenor1.png"
+    },
+    {
+        "nombre": "ReM",
+        "img": "./src/assets/img/chordReMenor2.png"
+    },
+    {
+        "nombre": "ReM7",
+        "img": "./src/assets/img/chordReMenorSiete1.png"
+    },
+    {
+        "nombre": "Re#",
+        "img": "./src/assets/img/chordReSostenido1.png"
+    },
+    {
+        "nombre": "Re#M",
+        "img": "./src/assets/img/chordReSostenidoMenor1.png"
+    },
+    {
+        "nombre": "Re#M7",
+        "img": "./src/assets/img/chordReSostenidoMenorSiete1.png"
+    },
+    {
+        "nombre": "Mi",
+        "img": "./src/assets/img/chordMi1.png"
+    },
+    {
+        "nombre": "Mi",
+        "img": "./src/assets/img/chordMi2.png"
+    },
+    {
+        "nombre": "Mi7",
+        "img": "./src/assets/img/chordMiSiete1.png"
+    },
+    {
+        "nombre": "Mi7",
+        "img": "./src/assets/img/chordMiSiete2.png"
+    },
+    {
+        "nombre": "Mi7",
+        "img": "./src/assets/img/chordMiSiete3.png"
+    },
+    {
+        "nombre": "MiM",
+        "img": "./src/assets/img/chordMiMenor1.png"
+    },
+    {
+        "nombre": "MiM",
+        "img": "./src/assets/img/chordMiMenor2.png"
+    },
+    {
+        "nombre": "MiM7",
+        "img": "./src/assets/img/chordMiMenorSiete1.png"
+    },
+    {
+        "nombre": "Fa",
+        "img": "./src/assets/img/chordFa1.png"
+    },
+    {
+        "nombre": "Fa7",
+        "img": "./src/assets/img/chordFaSiete1.png"
+    },
+    {
+        "nombre": "Fa7",
+        "img": "./src/assets/img/chordFaSiete2.png"
+    },
+    {
+        "nombre": "FaM",
+        "img": "./src/assets/img/chordFaMenor1.png"
+    },
+    {
+        "nombre": "FaM7",
+        "img": "./src/assets/img/chordFaMenorSiete1.png"
+    },
+    {
+        "nombre": "Fa#",
+        "img": "./src/assets/img/chordFaSostenido1.png"
+    },
+    {
+        "nombre": "Fa#7",
+        "img": "./src/assets/img/chordFaSostenidoSiete1.png"
+    },
+    {
+        "nombre": "Fa#7",
+        "img": "./src/assets/img/chordFaSostenidoSiete2.png"
+    },
+    {
+        "nombre": "Fa#m",
+        "img": "./src/assets/img/chordFaSostenidoMenor1.png"
+    },
+    {
+        "nombre": "Fa#m7",
+        "img": "./src/assets/img/chordFaSostenidoMenorSiete1.png"
+    },
+    {
+        "nombre": "Sol",
+        "img": "./src/assets/img/chordSol1.png"
+    },
+    {
+        "nombre": "Sol",
+        "img": "./src/assets/img/chordSol2.png"
+    },
+    {
+        "nombre": "Sol7",
+        "img": "./src/assets/img/chordSolSiete1.png"
+    },
+    {
+        "nombre": "SolM",
+        "img": "./src/assets/img/chordSolMenor1.png"
+    },
+    {
+        "nombre": "SolM7",
+        "img": "./src/assets/img/chordSolMenorSiete1.png"
+    },
+    {
+        "nombre": "Sol#",
+        "img": "./src/assets/img/chordSolSostenido1.png"
+    },
+    {
+        "nombre": "Sol#M",
+        "img": "./src/assets/img/chordSolSostenidoMenor1.png"
+    },
+    {
+        "nombre": "Sol#M7",
+        "img": "./src/assets/img/chordSolSostenidoMenorSiete1.png"
+    },
+    {
+        "nombre": "La",
+        "img": "./src/assets/img/chordLa1.png"
+    },
+    {
+        "nombre": "La",
+        "img": "./src/assets/img/chordLa2.png"
+    },
+    {
+        "nombre": "La7",
+        "img": "./src/assets/img/chordLaSiete1.png"
+    },
+    {
+        "nombre": "La7",
+        "img": "./src/assets/img/chordLaSiete2.png"
+    },
+    {
+        "nombre": "LaM",
+        "img": "./src/assets/img/chordLaMenor1.png"
+    },
+    {
+        "nombre": "LaM",
+        "img": "./src/assets/img/chordLaMenor2.png"
+    },
+    {
+        "nombre": "LaM7",
+        "img": "./src/assets/img/chordLaMenorSiete1.png"
+    },
+    {
+        "nombre": "Si",
+        "img": "./src/assets/img/chordSi1.png"
+    },
+    {
+        "nombre": "Si",
+        "img": "./src/assets/img/chordSi2.png"
+    },
+    {
+        "nombre": "SiM",
+        "img": "./src/assets/img/chordSiMenor1.png"
+    },
+    {
+        "nombre": "SiM",
+        "img": "./src/assets/img/chordSiMenor2.png"
+    },
+    {
+        "nombre": "SiM7",
+        "img": "./src/assets/img/chordSiMenorSiete1.png"
+    },
+    {
+        "nombre": "SiB",
+        "img": "./src/assets/img/chordSiBemol1.png"
+    },
+    {
+        "nombre": "SiB",
+        "img": "./src/assets/img/chordSiBemol2.png"
+    },
+    {
+        "nombre": "SiBM",
+        "img": "./src/assets/img/chordSiBemolMenor1.png"
+    },
+    {
+        "nombre": "SiBM",
+        "img": "./src/assets/img/chordSiBemolMenorSiete1.png"
+    },
+    {
+        "nombre": "Si7",
+        "img": "./src/assets/img/chordSiSiete1.png"
+    }
+]
