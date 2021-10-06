@@ -33,7 +33,7 @@ header nav a .logo {
 header nav ul {
     display: flex;
     list-style: none;
-    /* width: 300px; */
+    width: 100%;
     justify-content: space-around;
     align-items: center;
 }
@@ -93,7 +93,7 @@ main .main-tonos {
     text-align: center;
 }
 main .fondo .main-tonos .main-tonos-family {
-    width: 85%;
+    width: 98%;
     height: 50px;
     padding-top: 5px;
     margin: 5px;

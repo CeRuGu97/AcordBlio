@@ -33,7 +33,7 @@ header nav a .logo {
 header nav ul {
     display: flex;
     list-style: none;
-    /* width: 300px; */
+    width: 100%;
     justify-content: space-around;
     align-items: center;
 }

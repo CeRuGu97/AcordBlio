@@ -13,3 +13,6 @@ main .fondo {
     margin-left: 10%;
     margin-right: 10%;
 }
+main .fondo .main-tonos .main-tonos-family {
+    width: 85%;
+}
