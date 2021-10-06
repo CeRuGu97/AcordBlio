@@ -2,6 +2,7 @@
     /* Colores */
     --bitcoin-orange: #f7931A;
     --primary-coffe: #854A13;
+    --primary-red : #e9565e;
     --soft-orange: #FFE9D5;
     --secondary-blue: #1a9af7;
     --soft-blue: #e7f5ff;
@@ -98,7 +99,6 @@ main .cards-container-main {
 main .cards-container-main ul{
     list-style: none;
     align-items: center;
-    padding: 0px;
 }
 main .cards-container-main ul li {
     display: inline-block;
@@ -126,4 +126,54 @@ main .cards-container-main ul li .card-cont .card-cont-img {
 main .cards-container-main ul li .card-cont .card-cont-img img {
     width: 150px;
     height: 168px;
+}
+/* aqui empieza la pagina de escalas */
+main .fondo .main-info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main .fondo .main-info h1 {
+    font-size: 2.4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+main .fondo .main-info h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+main .fondo .main-info p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: var(--warm-black);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main .fondo .main-info p span {
+    padding-left: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--warm-black);
+}
+main .main-tonos {
+    text-align: center;
+}
+main .main-tonos .main-tonos-family {
+    display: inline-block;
+    border: 1px solid var(--primary-red)
+}
+main .main-tonos .main-tonos-family h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+main .main-tonos .main-tonos-family ul {
+    list-style: none;
+}
+main .main-tonos .main-tonos-family ul li {
+    display: inline-block;
 }
